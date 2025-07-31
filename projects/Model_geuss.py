@@ -33,11 +33,8 @@ y_train = np.array([#miliard toman(000,000)
                     [4450]])
 
 #matrix I:
-I = np.array([[0,0,0,0,0],
-              [0,1,0,0,0],
-              [0,0,1,0,0],
-              [0,0,0,1,0],
-              [0,0,0,0,1]])
+I = np.eye(5)
+I[0][0] = 0
 
 #tetha(regulaziation):
 tetha = np_lin.inv(x_train.T @ x_train + 0.001 * I) @ x_train.T @ y_train
