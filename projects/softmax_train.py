@@ -86,13 +86,17 @@ def classify(x):
     return "Digits" if predict_class[0] == 0 else "Letters" , probs
 
 #example:
-x_input = input("Hi , give me a chractor(letters or digits):")
-if x_input.isdigit():
-    print(classify(int(x_input)))
-elif x_input.isalpha():
-    print(classify(x_input))
-else:
-    print("!!!!Invalid data!!!!")
-
-quit = input("Press eny key to quit.")
+while True:
+    x_input = input("Hi , give me a chractor(letters or digits):")
+    if x_input.isdigit():
+        print(classify(int(x_input)))
+    elif x_input.isalpha():
+        print(classify(x_input))
+    else:
+        print("!!!!Invalid data!!!!")
+    quit_program = input("Continue or quit?(c or q , give me):")
+    if quit_program == 'q':
+        break
+    else:
+        print("\nOkay continue.\n")
 #endregion
