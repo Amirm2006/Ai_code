@@ -14,4 +14,4 @@
 
 3.project 3:
          
-         My third project is about predicting land prices in a village, which I solved using linear regression.These projects have the possibility of being updated.
+         My third project is about predicting land prices in a village, which I solved using linear regression.
