@@ -1,17 +1,27 @@
-# AI
- Here I post projects related to artificial intelligence.
- 
- 1.first project:
-         
-         My first project is about predicting house prices in Pardisan, Qom.
+# AI-Related Projects
 
+This repository contains several projects related to artificial intelligence and machine learning.
 
- 2.project two:
-         
-         In my second project, I implemented a Softmax classifier to train a model that determines whether the user input is a number or an English letter.
-         The current limitation is that the input must be a single character, for example: 5 or a.
+## Project 1: House Price Prediction in Pardisan, Qom
 
+In this project, I developed a model to predict house prices in Pardisan, Qom using [method/algorithm if you want to specify]. The goal was to analyze housing market data and estimate prices based on relevant features.
 
-3.project 3:
-         
-         My third project is about predicting land prices in a village, which I solved using linear regression.
+---
+
+## Project 2: Softmax Classifier for Character Recognition
+
+This project involves implementing a Softmax classifier to train a model that classifies user input as either a number or an English letter.  
+**Limitation:** The input is restricted to a single character, such as '5' or 'a'.
+
+---
+
+## Project 3: Land Price Prediction in a Village
+
+The third project focuses on predicting land prices in a rural area. I approached the problem using linear regression techniques to estimate land values based on input features.
+
+---
+
+### Note
+
+These projects are continuously updated and improved over time.
+
