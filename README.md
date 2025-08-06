@@ -20,6 +20,11 @@ This project involves implementing a Softmax classifier to train a model that cl
 The third project focuses on predicting land prices in a rural area. I approached the problem using linear regression techniques to estimate land values based on input features.
 
 ---
+## Project 4:
+
+I implemented a neural network to practice classification of input characters, determining whether the given input is a digit, an uppercase letter, or a lowercase letter.
+
+---
 
 ### Note
 
